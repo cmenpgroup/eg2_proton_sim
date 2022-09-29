@@ -75,7 +75,7 @@ done
 PREFIX=plot_hists_${ANA}_pruned${TARNAME};
 ${ROOTSYS}/bin/hadd ${PREFIX}_all.root ${PREFIX}_*.root
 
-DIR=${TARNAME}/${ANA}_sig${SIGMA};
+DIR=${TARNAME}/${ANA}/sig${SIGMA};
 if [ ! -d "$DIR" ];
 then
 	echo "$DIR directory does not exist."
