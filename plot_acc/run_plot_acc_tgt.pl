@@ -9,8 +9,8 @@ $firstRun = 1;
 $lastRun = 25;
 
 for $k (0 .. $#target) {
-  $logfile = "batch_plot_hists_$dim_sig$IDcut_$target[$k].log";
+  $logfile = "batch_plot_hists_$dim\_sig$IDcut\_$target[$k].log";
   $cmd = "batch_plot_hists.sh $target[$k] $firstRun $lastRun $dim $IDcut >& $logfile";
   print "$cmd\n\n";
-  system($cmd);
+#  system($cmd);
 }
