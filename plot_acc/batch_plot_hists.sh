@@ -79,7 +79,7 @@ DIR=${TARNAME}/${ANA}/sig${SIGMA};
 if [ ! -d "$DIR" ];
 then
 	echo "$DIR directory does not exist."
-        mkdir $DIR
+        mkdir -p $DIR
 else
 	echo "$DIR directory exists."
 fi

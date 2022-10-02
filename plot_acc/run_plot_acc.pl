@@ -1,8 +1,8 @@
 #!/usr/bin/perl -w
 
-@target = ("C","Fe","Pb");
+@target = ("D","C","Fe","Pb");
 @dim = ("1d","2d","3d");
-@cuts =(1.0,1.5,2.0,2.5,3.0);
+@cuts =("1.0","1.5","2.0","2.5","3.0");
 
 $firstRun = 1;
 $lastRun = 25;
